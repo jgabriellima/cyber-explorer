@@ -16,7 +16,7 @@ export default function Header() {
         <Search className="absolute right-3 top-2.5 w-5 h-5 text-[#00ffff]"/>
       </div>
       <nav className="flex space-x-4">
-        {['Biblioteca', 'Análises', 'Configurações'].map((item) => (
+        {['rghi', 'Análises', 'Configurações'].map((item) => (
           <button key={item} className="text-[#00ffff] hover:text-white transition-colors">
             {item}
           </button>
